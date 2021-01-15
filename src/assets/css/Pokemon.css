@@ -1,0 +1,59 @@
+.container {
+  width: 80%;
+  height: 60rem;
+  margin-left: 10%;
+  margin-right: 10%;
+  border: black solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.child1 {
+  width: 100%;
+  height: 35%;
+  border: black solid;
+  overflow: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.child1 > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.child1 > div > img {
+  width: 8rem;
+}
+.child2 {
+  width: 100%;
+  height: 100%;
+  padding: 0%;
+  border: black solid;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.type_box {
+  width: 30%;
+  height: 80%;
+  border: black solid;
+  overflow: auto;
+}
+.title1 {
+  font-weight: bold;
+  background-color: red;
+}
+.title2 {
+  font-weight: bold;
+  background-color: blue;
+}
+.title3 {
+  font-weight: bold;
+  background-color: green;
+}
+h1 {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  text-align: center;
+}
