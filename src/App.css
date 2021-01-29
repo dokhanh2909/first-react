@@ -1,28 +1,23 @@
 * {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
-.App {
+body {
   width: 100vw;
   height: 100vh;
 }
-.border {
-  border: 1px solid gray;
-  box-shadow: 5px 5px 5px #888888;
-}
-.main {
+#root {
   width: 100%;
-  height: 95%;
+  height: 100%;
+}
+.container {
   display: flex;
-  flex-direction: row;
+  width: 100%;
+  height: 100%;
+}
+.border{
+  border: 1px solid red;
 }
 
-.todolist {
-  width: 80%;
-  height: 100%;
-}
-.signin-up {
-  width: 80%;
-  height: 100%;
-}
+

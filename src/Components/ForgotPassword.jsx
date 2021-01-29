@@ -1,5 +1,6 @@
 import React from 'react';
-
+import '../assets/css/ForgotPassword.css'
+// import { login } from '../Controllers/TodoControllers'
 
 export class ForgotPassword extends React.Component {
     constructor(props) {
@@ -19,24 +20,24 @@ export class ForgotPassword extends React.Component {
     }
     render() {
         return (
-            <form className="signin-up signin-cont">
-                <div className="signin-comp title">
+            <form className="forgot-password-area ">
+                <div className="forgot-password-comp title">
                     <h1>Forgot Password</h1>
 
                 </div>
-                <div className="signin-comp">
+                <div className="forgot-password-comp">
                     <label htmlFor="">Email</label>
                     <input type="text" name="" id="username" onChange={(e) => this.handleChange(e, 'username')} placeholder="Enter username" />
                 </div>
-                <div className="signin-comp opt">
-                    <small onClick={this.props.signUp}>
+                <div className="forgot-password-comp opt">
+                    <small onClick={this.props.navigateToSignUp}>
                         <a>Sign Up</a>
                     </small>
-                    <small onClick={this.props.signIn}>
+                    <small onClick={this.props.navigateToSignIn}>
                         <a>Sign In</a>
                     </small>
                 </div>
-                <div className="signin-comp">
+                <div className="forgot-password-comp">
                     <input type="button" value="Send Email" onClick={this.handleSubmit} />
 
                 </div>
